@@ -29,6 +29,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Kick" />
-    
+
 
  </RelativeLayout>

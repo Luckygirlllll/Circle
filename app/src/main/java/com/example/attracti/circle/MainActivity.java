@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//example, the kick drum button
+        //example, the kick drum button
         mKick = (Button) findViewById(R.id.kick);
-      //  mCanvasView = (CanvasView) findViewById(R.id.canvasView1);
+        //mCanvasView = (CanvasView) findViewById(R.id.canvasView1);
         mCanvasView = new CanvasView(getApplicationContext());
         LinearLayout container = (LinearLayout) findViewById(R.id.conteiner);
         container.addView(mCanvasView);

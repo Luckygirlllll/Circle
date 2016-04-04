@@ -47,8 +47,7 @@ public class CanvasView extends View {
         //important. Refreshes the view by calling onDraw function
         invalidate();
     }
-
-    //what I want to draw is here
+    
     protected void onDraw(Canvas canvas) {
         mCanvas = canvas;
         super.onDraw(mCanvas);
